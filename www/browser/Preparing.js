@@ -170,6 +170,7 @@
 
     window.isFilePluginReadyRaised = function () { return eventWasThrown; };
 
+    /*
     window.initPersistentFileSystem(PERSISTENT_FS_QUOTA, function() {
         console.log('Persistent fs quota granted');
         quotaWasRequested = true;
@@ -189,4 +190,5 @@
 
         dispatchEventIfReady();
     }, false);
+    */
 })();
